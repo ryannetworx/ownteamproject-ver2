@@ -257,8 +257,12 @@ body {
 }
 
 .hero_hastags {
-    width: 16rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
     margin-top: 2rem;
+    max-width: 16rem;
+    margin: 2rem auto;
 }
 
 .tags {
@@ -278,4 +282,5 @@ body {
     line-height: 0.02rem; /* 116.667% */
     letter-spacing: -0.03rem;
     text-transform: uppercase;
+    margin: 0.2rem;
 }
