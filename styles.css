@@ -42,7 +42,7 @@ body {
     height: 110px;
     flex-shrink: 0;
     background: url('') rgba(174, 19, 50, 0) 50%/ cover no-repeat; /* Use rgba color with alpha set to 0 for transparency */
-    filter: blur(3.5px);
+    filter: blur(2.5px);
     top: -20px;
     right: 65px;
     z-index: 0; /* Set a lower z-index to place it behind the text */
@@ -56,7 +56,7 @@ body {
     transform: rotate(10deg);
     flex-shrink: 0;
     background: url(''),rgba(174, 19, 50, 0) 50%/ cover no-repeat; /* Use rgba color with alpha set to 0 for transparency */
-    filter: blur(1.5px);
+    filter: blur(2.5px);
     top: 120px;
     left: 55px;
     z-index: 0; /* Set a lower z-index to place it behind the text */
@@ -293,20 +293,27 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .tagline-container {
+        align-items: center;
+        justify-content: center;
+    }
+
     .tagline {
         font-size: 3.5rem; /* Adjust font size for smaller screens */
+        align-items: center;
+        justify-content: center;
     }
 
     .strawberry_blurred {
         width: 12%;
-        right: 100px;
-        top: -5px;
+        top: -8px;
+        margin-right: 35px;
     }
 
     .banana_blurred {
-        width: 18%;
+        width: 20%;
         height: auto;
-        left: 80px;
+        left: 70px;
     }
 
     .orangegirl_container {
@@ -333,5 +340,11 @@ body {
 
     .hero_hastags {
         margin-right: -45px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .tagline {
+        font-size: 1.75rem; /* Adjust font size for smaller screens */
     }
 }
