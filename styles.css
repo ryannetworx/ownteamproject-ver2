@@ -5,6 +5,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    position: relative;
 }
 
 .tagline-container {
@@ -12,6 +13,7 @@ body {
     width: 56.125rem;
     text-align: center;
     margin-top: 20px;
+    z-index: 1;
 }
 
 .tagline {
@@ -52,4 +54,22 @@ body {
     top: 120px;
     left: 45px;
     z-index: 0; /* Set a lower z-index to place it behind the text */
+}
+
+.orangegirl_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 290px;
+    z-index: 0;
+}
+
+.center_orange_girl {
+    position: relative;
+    height: 1000px;
+    width: 650px;
+    flex-shrink: 0;
+    transform: scale(.65);
+    border-radius: 500px
 }
