@@ -73,3 +73,13 @@ body {
     transform: scale(.65);
     border-radius: 500px
 }
+
+.orangegirl_outline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    z-index: -1; /* Ensure the outline is behind .center_orange_girl */
+}
+    
