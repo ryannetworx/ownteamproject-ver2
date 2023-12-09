@@ -303,7 +303,7 @@ body {
     }
 
     .banana_blurred {
-        width: 20%;
+        width: 18%;
         height: auto;
         left: 80px;
     }
@@ -313,12 +313,12 @@ body {
     }
 
     .center_orange_girl {
-        width: 85%;
+        width: 90%;
+        /* border-radius: 520px; */
     }
 
-    .orangegirl_outline {
+    /* .orangegirl_outline { */
         /* width: 63%; */
-        width: 430px;
-        margin-top: 10px;
-    }
+        /* width: 475px; */
+    
 }
