@@ -114,8 +114,8 @@ body {
 
 .aside_left_container {
     position: absolute;
-    top: 295px;
-    left: -130px;
+    top: 22rem;
+    left: 50px;
     margin-left: 20px; /* Adjust the margin as needed */
 }
 
@@ -171,10 +171,74 @@ body {
     height: 3.1875rem;
     flex-shrink: 0;
     fill: #060000; /* Set the color to your preference */
-    margin-top: -50px;
+    margin-top: -45px;
 }
 
 .refreshing_text {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.875rem; /* 116.667% */
+    letter-spacing: -0.03rem;
+    text-transform: uppercase;
+    width: 9.6875rem;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.aside_right_container {
+    position: absolute;
+    top: 18rem;
+    right: 50px;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.aside_right_yellowbox {
+    border-radius: 31.25rem;
+    background: #FFCC29;
+    width: 15.5625rem;
+    height: 24.1875rem;
+    flex-shrink: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fruit2 {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.875rem; /* 116.667% */
+    letter-spacing: -0.03rem;
+    padding-top: 1rem;
+}
+
+.strawberry_basket_right {
+    width: 10.125rem;
+    height: 11.5625rem;
+    flex-shrink: 0;
+    padding-top: 3.5rem;
+}
+
+.strawberry_basket_shadow {
+    width: 14.5625rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    fill: #060000; /* Set the color to your preference */
+    margin-top: -45px;
+}
+
+.sweet_juicy {
     color: #FFF;
     text-align: center;
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
