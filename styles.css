@@ -8,6 +8,8 @@ body {
     position: relative;
 }
 
+/* HERO SECTION **************** */
+
 .tagline-container {
     position: relative; /* Set to relative to allow absolute positioning within it */
     width: 56.125rem;
@@ -287,4 +289,36 @@ body {
     letter-spacing: -0.03rem;
     text-transform: uppercase;
     margin: 0.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .tagline {
+        font-size: 3.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .strawberry_blurred {
+        width: 12%;
+        right: 100px;
+        top: -5px;
+    }
+
+    .banana_blurred {
+        width: 20%;
+        height: auto;
+        left: 80px;
+    }
+
+    .orangegirl_container {
+        width: 80%;
+    }
+
+    .center_orange_girl {
+        width: 85%;
+    }
+
+    .orangegirl_outline {
+        /* width: 63%; */
+        width: 430px;
+        margin-top: 10px;
+    }
 }
