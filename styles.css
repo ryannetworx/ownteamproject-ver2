@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
     position: relative;
+    /* flex-flow: row wrap; */
 }
 
 /* HERO SECTION **************** */
@@ -27,7 +28,7 @@ body {
     font-size: 4rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 3.375rem; /* 100% */
+    line-height: 4rem; /* 100% */
     letter-spacing: -0.16rem;
     text-transform: uppercase;
     position: relative; /* Set to relative to define stacking context */
@@ -50,14 +51,14 @@ body {
 .banana_blurred {
     width: 5%;
     position: absolute;
-    width: 13.063rem;
+    width: 12.063rem;
     height: 9.78831rem;
     transform: rotate(10deg);
     flex-shrink: 0;
     background: url(''),rgba(174, 19, 50, 0) 50%/ cover no-repeat; /* Use rgba color with alpha set to 0 for transparency */
     filter: blur(1.5px);
     top: 120px;
-    left: 45px;
+    left: 55px;
     z-index: 0; /* Set a lower z-index to place it behind the text */
 }
 
@@ -317,8 +318,20 @@ body {
         /* border-radius: 520px; */
     }
 
-    /* .orangegirl_outline { */
-        /* width: 63%; */
-        /* width: 475px; */
-    
+    .aside_left_container {
+        top: 52rem; /* Adjust top position for stacking below the tagline */
+    }
+
+    .aside_left {
+        width: 18rem;
+        margin-left: -40px;
+    }
+
+    .aside_right_container {
+        top: 50rem; /* Adjust top position for stacking below the tagline */
+    }
+
+    .hero_hastags {
+        margin-right: -45px;
+    }
 }
