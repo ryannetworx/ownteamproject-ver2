@@ -345,8 +345,18 @@ body {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 559px) {
+    .tagline-container {
+        width: 21rem;
+    }
+    
     .tagline {
-        width: 10%;
+        width: 100%;
+        font-size: 1.75rem;
+        line-height: 1.75rem; /* 100% */
+        letter-spacing: -0.16rem;
+        white-space: nowrap; /* Add this property to prevent line breaks */
+        display: flex;
+        
     }
 }
