@@ -27,7 +27,7 @@ body {
     font-size: 4rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 4rem; /* 100% */
+    line-height: 3.375rem; /* 100% */
     letter-spacing: -0.16rem;
     text-transform: uppercase;
     position: relative; /* Set to relative to define stacking context */
