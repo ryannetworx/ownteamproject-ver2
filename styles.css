@@ -256,3 +256,26 @@ body {
     margin-top: 10px;
 }
 
+.hero_hastags {
+    width: 16rem;
+    margin-top: 2rem;
+}
+
+.tags {
+    color: #ffffff;
+    display: inline-flex;
+    padding: 0.25rem 2rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 62.5rem;
+    border: 1px solid #ffffff;
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.02rem; /* 116.667% */
+    letter-spacing: -0.03rem;
+    text-transform: uppercase;
+}
