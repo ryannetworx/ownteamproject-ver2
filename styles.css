@@ -294,25 +294,27 @@ body {
 
 @media only screen and (max-width: 768px) {
     .tagline-container {
+        display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center; /* Optional: Center text within the container */
     }
 
     .tagline {
         font-size: 3.5rem; /* Adjust font size for smaller screens */
-        align-items: center;
-        justify-content: center;
+        text-align: center; /* Optional: Center text within the tagline */
     }
 
     .strawberry_blurred {
-        width: 12%;
-        top: -8px;
-        margin-right: 35px;
+        width: 13%;
+        top: 50px;
+        margin-right: 28px;
     }
 
     .banana_blurred {
         width: 20%;
         height: auto;
+        top: 175px;
         left: 70px;
     }
 
@@ -345,6 +347,6 @@ body {
 
 @media only screen and (max-width: 375px) {
     .tagline {
-        font-size: 1.75rem; /* Adjust font size for smaller screens */
+        width: 10%;
     }
 }
