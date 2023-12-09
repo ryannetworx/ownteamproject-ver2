@@ -45,12 +45,12 @@ body {
 
 .banana_blurred {
     position: absolute;
-    width: 13.45063rem;
+    width: 13.063rem;
     height: 9.78831rem;
     transform: rotate(10deg);
     flex-shrink: 0;
     background: url(''),rgba(174, 19, 50, 0) 50%/ cover no-repeat; /* Use rgba color with alpha set to 0 for transparency */
-    filter: blur(0.5px);
+    filter: blur(1.5px);
     top: 120px;
     left: 45px;
     z-index: 0; /* Set a lower z-index to place it behind the text */
@@ -168,12 +168,9 @@ body {
 
 .watermelon_shadow {
     width: 15.5625rem;
-    height: 24.1875rem;
+    height: 1.1875rem;
     flex-shrink: 0;
     fill: #060000; /* Set the color to your preference */
-    opacity: 10; /* Adjust the opacity value to make it more visible */
-    /* filter: blur(1.5px); Optional: Apply a slight blur effect for a shadow-like appearance */
-    z-index: 2;
 }
 
 .refreshing_text {
@@ -189,5 +186,5 @@ body {
     text-transform: uppercase;
     width: 9.6875rem;
     align-content: center;
-    margin-top: -200px;
+    margin-top: 0px;
 }
