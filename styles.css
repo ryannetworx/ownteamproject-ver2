@@ -192,7 +192,7 @@ body {
 
 .aside_right_container {
     position: absolute;
-    top: 18rem;
+    top: 17rem;
     right: 50px;
     margin-right: 20px; /* Adjust the margin as needed */
 }
@@ -235,7 +235,9 @@ body {
     height: 2.375rem;
     flex-shrink: 0;
     fill: #060000; /* Set the color to your preference */
-    margin-top: -45px;
+    margin-top: -25px;
+    opacity: 1.5; /* Adjust the opacity to make it darker */
+
 }
 
 .sweet_juicy {
