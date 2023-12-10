@@ -349,9 +349,17 @@ body {
     .tagline {
         width: 20rem;
         font-size: 1.75rem;
-        line-height: 1.75rem; /* 100% */
+        line-height: 1.75rem;
         letter-spacing: -0.07rem;
         display: flex;
-        
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+        margin: 0 auto; /* Center the tagline horizontally */
     }
+    
+    .tagline > p:nth-child(2) {
+        width: 150%; /* Adjust the width of the second line */
+    }
+    
 }
