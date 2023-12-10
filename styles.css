@@ -347,15 +347,14 @@ body {
 
 @media only screen and (max-width: 559px) {
     .tagline-container {
-        width: 21rem;
+        max-width: 23rem;
     }
     
     .tagline {
-        width: 100%;
+        width: 20rem;
         font-size: 1.75rem;
         line-height: 1.75rem; /* 100% */
-        letter-spacing: -0.16rem;
-        white-space: nowrap; /* Add this property to prevent line breaks */
+        letter-spacing: -0.07rem;
         display: flex;
         
     }
