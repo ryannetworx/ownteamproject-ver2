@@ -15,7 +15,7 @@ body {
     position: relative; /* Set to relative to allow absolute positioning within it */
     width: 56.125rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
     z-index: 1;
 }
 
@@ -345,11 +345,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 480px) {
-    .tagline-container {
-        max-width: 23rem;
-    }
-    
+@media only screen and (max-width: 559px) {
     .tagline {
         width: 20rem;
         font-size: 1.75rem;
